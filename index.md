@@ -27,7 +27,6 @@ Syntax highlighted code block
 
 
 ```
-![Image](http://i1044.photobucket.com/albums/b443/April_Vanderslice/IMG_6655_zpsnirfkkjw.jpg)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
