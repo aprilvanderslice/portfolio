@@ -1,17 +1,13 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 * {box-sizing: border-box;}
 
 .wrapper {
   background-color: #FFFFFF;
+  margin: 0px;
 }
 
 .wrapper > div {
-  border: 1px solid #000000;
+  /*border: 1px solid #000000; */
   background-color: #ffffff;
   padding: 1em;
   color: #d9480f;
@@ -28,6 +24,9 @@ ul {
   grid-row-start: 1;
   grid-row-end: 7;
   position: relative;
+  background-image: url("https://images02.fasad.eu/307/400214/725183/large/5154935.jpg");
+  background-size: cover;
+  background-position: right;
 }
 
 .box2 {
