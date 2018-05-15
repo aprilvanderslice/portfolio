@@ -35,6 +35,9 @@
   grid-row-start: 1;
   grid-row-end: 4;
   position: relative;
+  background-image: url("https://ak1.ostkcdn.com/images/products/10809367/L17854820.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 .box3 {
