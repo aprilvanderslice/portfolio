@@ -1,16 +1,22 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
 * {box-sizing: border-box;}
 
 .wrapper {
   background-color: #FFFFFF;
-  margin: 0px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .wrapper > div {
   /*border: 1px solid #000000; */
   background-color: #ffffff;
   padding: 1em;
-  color: #d9480f;
+  color: grey;
 }
 .wrapper {
   display: grid;
@@ -24,9 +30,9 @@
   grid-row-start: 1;
   grid-row-end: 7;
   position: relative;
-  background-image: url("https://images02.fasad.eu/307/400214/725183/large/5154935.jpg");
+  background-image: url("https://images.solecollector.com/complex/image/upload/astiaotobkeopcqjtgk7.jpg");
   background-size: cover;
-  background-position: right;
+  background-position: left;
 }
 
 .box2 {
@@ -35,9 +41,10 @@
   grid-row-start: 1;
   grid-row-end: 4;
   position: relative;
-  background-image: url("https://ak1.ostkcdn.com/images/products/10809367/L17854820.jpg");
+  background-image: url("https://img.maximummedia.ie/her_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtaGVyLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE3XFxcLzA1XFxcLzIzMTc1NDM1XFxcL1NjcmVlbi1TaG90LTIwMTctMDUtMjMtYXQtMTcuNTQuMzAucG5nXCIsXCJ3aWR0aFwiOjc2NyxcImhlaWdodFwiOjQzMSxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3Lmhlci5pZVxcXC9hc3NldHNcXFwvaW1hZ2VzXFxcL2hlclxcXC9uby1pbWFnZS5wbmc_dj01XCJ9IiwiaGFzaCI6IjExOWU4YzQyZTBhNTgxMDBlYTkxZmRiYTFmYjg2NDViZjViZjBlNTQifQ==/screen-shot-2017-05-23-at-17-54-30.png");
+  background-position: left ;
   background-size: cover;
-  background-position: bottom;
+
 }
 
 .box3 {
@@ -46,6 +53,10 @@
   grid-row-start: 4;
   grid-row-end: 7;
   position: relative;
+  background-image: url("https://i.ytimg.com/vi/5PgltWGSjKQ/maxresdefault.jpg");
+  background-position: center;
+  background-size:cover;
+
 }
 
 .box4 {
@@ -54,6 +65,10 @@
   grid-row-start: 1;
   grid-row-end: 4;
   position: relative;
+  background-image: url("http://media.comicbook.com/2017/10/insetcrew-1027228.jpg");
+  background-position: bottom;
+  background-size: cover;
+
 }
 
 .box5 {
@@ -62,6 +77,10 @@
   grid-row-start: 3;
   grid-row-end: 5;
   position: relative;
+  background-image: url("http://cdn01.cdn.justjared.com/wp-content/uploads/headlines/2017/05/scandal-spoilers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box6 {
@@ -70,8 +89,39 @@
   grid-row-start: 5;
   grid-row-end: 7;
   position: relative;
+  background-image: url("http://ksassets.timeincuk.net/wp/uploads/sites/55/2013/02/NemoPR180712.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-/* Practice with image style */
+/* Text */
 
-]
+.description {
+  margin-top: auto;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.category {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
