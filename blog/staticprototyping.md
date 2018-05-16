@@ -19,7 +19,7 @@ I’ll slowly climb out of this hole by focusing on one thing. Just one box. Bec
 
 
   I’ll copy and paste the list item five times and use it as a template.
- 
+
 
 
 
@@ -68,6 +68,6 @@ I did work more on it more yesterday during/after coffee but I got so into it I 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_E6349DA107BBAD6F8990C909A7C1D2150358590466FCCAEFE8E7EC905184A9DC_1526494813603_Screen+Shot+2018-05-16+at+1.19.31+PM.png)
 
 
-Honestly, I would like to continue working on this. I didn’t actually measure space between lines and I don’t get to practice putting in a logo. Also, I feel that it could look better if the photos were more complimentary to the white text .
+Honestly, I would like to continue working on this. I didn’t actually measure space between lines, or anything really, and I didn't get to practice putting in a logo. Also, I feel that it could look better if the photos were more complimentary to the white text. Basically I'm trying to say I was having fun and want to do more. 
 
 Anyway, a very rough draft that I’m actually pretty proud of considering where my head was at at the beginning of this post.
