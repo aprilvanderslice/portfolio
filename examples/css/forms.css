@@ -1,3 +1,100 @@
 * {
   font-family: 'Tajawal', sans-serif;
+  text-decoration: none;
+  color: #404041;
+}
+
+* a:hover {
+  color: lightgrey;
+}
+
+/*CSS Grid */
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: 90px;
+}
+
+.header-social {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.header-logo {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+/* Header sizing */
+
+.header-social img {
+  height: 15px;
+  padding: 12px;
+}
+
+.header-logo img {
+  height: 65px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Navigation */
+.navbar a {
+  text-transform: uppercase;
+  padding: 15px;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+}
+
+
+/* Form */
+.wrapper {
+  margin-top: 100px;
+  width: auto;
+  text-align: center;
+}
+
+
+.welcome h1 {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight:lighter;
+  line-height: 60px;
+  font-size: 60px;
+  margin: 0;
+}
+
+.welcome h2 {
+  margin: 0;
+}
+
+#button {
+  text-transform: uppercase;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 20px;
+  height: 100px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+#button img {
+  height: 15px;
+  padding-top: 5px;
+  padding-right: 2px;
+}
+
+#button a {
+  padding-bottom: 5px;
 }
