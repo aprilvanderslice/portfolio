@@ -5,6 +5,8 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/forms.css">
     <link href="https://fonts.googleapis.com/css?family=Tajawal:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="forms.js"></script>
   </head>
   <body>
     <header class="header">
@@ -18,45 +20,44 @@
       <div class="header-logo">
           <a href="www.barre3.com"><img src="https://s31.postimg.cc/mqwq59kff/img-_Barre3.jpg" alt="barre3logo"></a>
       </div>
-      <div class="header-accountLogIn"</div>
+      <div class="header-accountLogin">
+          <a href="#login">B3 Online Login</a>
+      </div>
     </header>
     <nav class="navbar">
-      <a href="#home">The Workout</a>
-      <a href="#news">Shop</a>
-      <a href="#contact">Find a Studio</a>
-      <a href="#contact">Stream a Workout</a>
-      <a href="#contact">Magazine</a>
-      <a href="#contact">Own a Studio</a>
+      <a href="https://barre3.com/class">The Workout</a>
+      <a href="https://shop.barre3.com/?_ga=2.34132385.1091834078.1526754179-403296291.1510260858">Shop</a>
+      <a href="https://barre3.com/studio-locations">Find a Studio</a>
+      <a href="https://barre3.com/subscription">Stream a Workout</a>
+      <a href="https://blog.barre3.com/?_ga=2.21731899.1091834078.1526754179-403296291.1510260858">Magazine</a>
+      <a href="https://barre3.com/franchise">Own a Studio</a>
     </nav>
-    <div class="wrapper">
+    <div id="container">
       <div class="welcome">
         <h1>Log In</h1>
-        <h2> to your barre 3 Online account</h2>
-        <p>Looking for your studio class schedule? Find your <a href="#findastudio">barre3 studio</a> and access it through your MINDBODY account. </p>
-        <h3>Use a social account</h3>
+        <h2> to your Barre3 Online account</h2>
+        <p class="help-hint">Looking for your studio class schedule? Find your <a class="highlight-link" href="#findastudio">barre3 studio</a> and access it through your MINDBODY account. </p>
       </div>
       <div>
+        <p class="login-option">Use a social account<p>
         <span>
-          <button id="button">
-            <span><a href="www.facebook.com"><img src="https://s31.postimg.cc/4lf6deinv/facebook-icon.png" alt="Facebook"></a></span>
-            <span>Log in with Facebook</span>
-          </button>
+            <a href="www.facebook.com" class="fa fa-facebook">  Log in with Facebook</a>
         </span>
         <span>
-          <button id="button">
-            <span><a href="www.facebook.com"><img src="https://s31.postimg.cc/6h7h5gfgb/google-icon.png" alt="Google"></a></span>
-            <span>Log in with Google</span>
-          </button>
+            <a href="www.google.com" class="fa fa-google">  Log in with Google</a>
         </span>
       </div>
-      <h3>Or use your email account</h3>
-      <form>
-          email address<input><br>
-          password<input><br>
-          <input type="submit" value="Log In">
-      </form>
-      <p>Forgot your password? <a href="#resetpassword">Reset It</a></p>
-      <p>Are you a new user? <a href="#subscribnow">Subscribe Now</a> </p>
+      <br></br>
+      <div>
+        <p class="login-option">Or use your email account</p>
+        <form>
+            <label class="label" for="email">email address</label><input type="text"><br>
+            <label class="label" for ="password">password</label><input type="text"><br>
+            <input type="submit" value="Log In">
+        </form>
+      </div>
+      <p class="help-hint">Forgot your password? <a class="highlight-link" href="#resetpassword">Reset It</a></p>
+      <p class="help-hint">Are you a new user? <a class="highlight-link" href="#subscribnow">Subscribe Now</a> </p>
     </div>
   </body>
 </html>
