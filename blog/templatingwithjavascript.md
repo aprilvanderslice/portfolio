@@ -9,7 +9,7 @@ The next step is to "'abstract' out data needed for each template."
 
 _I stopped here on Tuesday May 29th. It is now Wednesday May 30th. I'm diffusing an essential oil blend that is supposed to help with mental focus._
 
-## Abstract Data.
+## Extract Data.
 The instructor started with html: built out all of the structure and changed the css to match. I've done that.
 
 But looking at the html now, there's hardly anything there. Even the javascript file is kinda scanty, but observing it I notice two things: 1) the details of each pin --what makes each one different: the image, the url, etc. 2) a forEach loop that has some html looking code in it for structure and no specifics. Ok. That makes sense. So that's what I'm doing. Abstracting the parts that can be templated.
