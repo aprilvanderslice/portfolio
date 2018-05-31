@@ -34,7 +34,7 @@ The first part is an array, and I'm writing a forEach loop for each item in the 
 
 Something is wrong.
 
-![wrong](https://s6.postimg.cc/8s0dj1zk1/Screen_Shot_2018-05-30_at_3.35.58_PM.png)
+![wrong](https://s6.postimg.cc/mmyo16m5t/Screen_Shot_2018-05-30_at_4.07.44_PM.png)
 
 But I am going to go eat dinner. Okay with where I'm at right now. Before I go, I want to make note that maybe it has something to do with the css, the boxes, and maybe the fact that the images are located inside the css and not the html, or now the javascript. I'll fact check my suspicions later.
 
