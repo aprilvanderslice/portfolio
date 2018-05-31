@@ -1,12 +1,7 @@
 //The specifics of each box
 document.addEventListener('DOMContentLoaded', () => {
   const boxesData = [
-    {
-      description:'New on Hulu',
-      category:'Hulu with Live TV',
-      title: 'Live Sports',
-      logo: 'logo',
-    },
+
     {
       description:'Groundbreaking',
       category:'Hulu Originals',
@@ -50,8 +45,9 @@ const boxesElement = document.querySelector("[data-js='boxes']");
 
 //Items within each box that can be templated
 boxesData.forEach((box, i) => {
+  const readableIterator = i+1;
   let boxTemplate = `
-    <div class="box${i}">
+    <div class="box${readableIterator}">
         <p class="description">
           ${box.description}
         </p>

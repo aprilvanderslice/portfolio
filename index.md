@@ -6,3 +6,4 @@
 - [Static Prototyping](http://www.aprilvanderslice.com/blog/staticprototyping)
 - [Local Jekyll](http://www.aprilvanderslice.com/blog/localjekyll)
 - [Trouble with RVM](http://www.aprilvanderslice.com/blog/troublewithRVM)
+- [Templating with JavaScript](http://www.aprilvanderslice.com/blog/templatingwithjavascript)
