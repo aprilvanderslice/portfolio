@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
 const boxesElement = document.querySelector("[data-js='boxes']");
 
 //Items within each box that can be templated
-boxesData.forEach((box) => {
+boxesData.forEach((box, i) => {
   let boxTemplate = `
-    <div>
+    <div class="box${i}">
         <p class="description">
           ${box.description}
         </p>
