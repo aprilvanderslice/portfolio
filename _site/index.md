@@ -7,4 +7,5 @@
 - [Local Jekyll](http://www.aprilvanderslice.com/blog/localjekyll)
 - [Trouble with RVM](http://www.aprilvanderslice.com/blog/troublewithRVM)
 - [Templating with JavaScript](http://www.aprilvanderslice.com/blog/templatingwithjavascript)
-- [Apple's ToDo](http://www.aprilvanderslice.com/blog/applestodo)
+- [Apple's ToDo: Trello Board](http://www.aprilvanderslice.com/blog/applestodo)
+- [Apple's ToDo: Part 1](http://www.aprilvanderslice.com/blog/Applestodopt1)
