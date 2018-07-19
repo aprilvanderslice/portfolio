@@ -4,7 +4,6 @@ I am now going to start building the actual app but it seems like I'm missing a 
 
 It's hard to remember that building the foundation of a page is going to look rough. Like, I let myself get overwhelmed with how it all looks/acts and feeling like I need to get all of that down right off the bat. Obviously not the case. Let's just start with the title.
 
-![title](/Screen Shot 2018-07-17 at 8.16.46 PM.png)
 
 Ok. But now what. I'm supposed to be able to click on the title and change it. That's the current Trello card I'm working on. But that doesn't *feel* like the next step. Should I start doing all of that with JavaScript? Or should I continue building the rest of the foundation, move to CSS, *then* start working on changing the title, etc? Here's what I'll do: I'm gonna take the path of least resistance because that feels right right now. So I'll work on how to add in the plus icon.
 
@@ -12,7 +11,6 @@ Brb. Going to google.
 
 This feels too easy. Used Font Awesome Form Icons. Found a + sign.
 
-![plus sign](/Screen Shot 2018-07-17 at 8.40.02 PM.png)
 
 There's a little more padding in Apple's + icon so I'll work on that when I'm styling. The rest of it seems like it will be JS and CSS. I can't add list items in html because they aren't going to stay there.
 
